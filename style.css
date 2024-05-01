@@ -1,0 +1,104 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ 
+}
+body {
+    font-size: 15pt;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main_div {
+ height: 100%;
+ width: 100%;
+ margin: 0px;
+ display: flex;
+ position: relative;
+ align-items: center;
+ border: 1px solid black;
+ background-color: gray;
+}
+.main_music_continor{
+ height: 17rem;
+ width: 17rem;
+ position: absolute;
+ margin: 0px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ align-items: center;
+ background-color: unset;
+ border: 1px solid red;
+ 
+}
+ul{
+ justify-content: space-between;
+ 
+ text-decoration: none;
+ text-align: center;
+ font-size: 10px;
+ list-style: none;
+ display: flex;
+ background-color: red;
+margin: auto; 
+}
+.song_img{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+
+ transform: translate(-50%, -50%);
+ border: 0.5px solid red;
+ height: 70%;
+ width: 80%;
+}
+.imgs{
+ background-image: url(1.png);
+ /* background-size:cover; */
+ object-fit: cover;
+ background-repeat: no-repeat;
+ background-color: red;
+ height: 100%;
+ width: 96%;
+ border-radius:50%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%, -50%);
+}
+.backbtn {
+ height: 30px;
+ width: 30px;
+ background-image: url(5.png);
+ position: absolute;
+ top: 91%;
+ left: 20%;
+ transform: translate(-50%, -50%);
+ background-size: cover;
+
+}
+.playbtn {
+ height: 30px;
+ width: 30px;
+ background-image: url(1.png);
+ position: absolute;
+ top: 91%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-size: cover;
+
+}
+.nextbtn {
+ height: 30px;
+ width: 30px;
+ background-image: url(4.png);
+ position: absolute;
+ top: 91%;
+ left: 80%;
+ transform: translate(-50%, -50%);
+ background-size: cover;
+
+}
