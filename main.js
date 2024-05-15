@@ -8,7 +8,7 @@ window.onload = (e) => {
   var home = document.getElementById('home')
   
   
-  audio.src = '/Rawat/0.mp3';
+  audio.src = '/0.mp3';
 
   // let currenttime = document.getElementsByClassName('currenttime');
   // var tm = document.getElementById('tracktime')
@@ -89,7 +89,7 @@ window.onload = (e) => {
   })
 
   var Loadsong = (songs) => {
-    audio.src = "/Rawat/" + songindex + ".mp3";
+    audio.src = "/" + songindex + ".mp3";
     let titel = songindex + '.Mp3';
     titels.textContent = titel;
 
